@@ -42,20 +42,8 @@ export function Footer() {
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a>
-        <a
-          href="https://www.instagram.com/vinayaksingh.in"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
-        </a>
+       
+       
       </div>
     </Container>
   )
