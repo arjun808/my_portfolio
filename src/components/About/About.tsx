@@ -36,16 +36,16 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
-          </div>
-          <div className="hability">
+          </div> */}
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
@@ -56,11 +56,11 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />
@@ -86,6 +86,9 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+
+
+          
         </div>
       </div>
       <div className="about-image">

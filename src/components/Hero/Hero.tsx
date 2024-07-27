@@ -31,33 +31,35 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/arjun-patidar-6556b2226"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/arjun808"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B916261955808&text=Hello+Arjun"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
+        {/* <a
           href="https://t.me/CodeVinayak"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="telegram" />
-        </a></div>
+        </a>
+         */}
+        </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">
